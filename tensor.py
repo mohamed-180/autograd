@@ -27,7 +27,6 @@ for i in range(1000):
 	b.grad.zero_()
 print(time() - t)
 
-
 #Logistic regression
 
 def loss(y, yhat):
